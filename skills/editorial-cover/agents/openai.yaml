@@ -1,0 +1,4 @@
+interface:
+  display_name: "版画拼贴封面"
+  short_description: "文章与视频封面的浅纸版画拼贴设计，支持横竖比例重排与主色适配"
+  default_prompt: "Use $editorial-cover to create a text-first editorial cover for my article or video."
