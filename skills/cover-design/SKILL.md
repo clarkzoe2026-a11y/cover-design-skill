@@ -1,9 +1,9 @@
 ---
-name: editorial-cover
+name: cover-design
 description: Use when an article or video needs a text-first editorial cover with engraved paper collage, or an existing cover in that style needs a brand-color variant, text edit, or 4:3, 3:4, or 16:9 adaptation.
 ---
 
-# Editorial Cover · 文字优先的版画拼贴封面
+# 封面设计 · 文字优先的版画拼贴封面
 
 把文章的核心动作画成一个容易理解的场景，让标题在缩略图中先被读到。适用于独立封面，不用于制作网站页面、UI 原型或复刻个人作品集。
 

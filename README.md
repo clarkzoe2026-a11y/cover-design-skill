@@ -1,10 +1,10 @@
-# Editorial Cover Skill
+# 封面设计（cover-design）
 
 把文章意思画出来，让标题先被读到。
 
 一套用于文章、视频封面的 Codex / Agent skill：浅色纸面、深色字、概念版画拼贴，支持品牌主色适配、文字定点编辑，以及 **4:3、3:4、16:9** 重新构图。
 
-![浅绿版画拼贴封面示例](skills/editorial-cover/assets/reference-4x3.png)
+![浅绿版画拼贴封面示例](skills/cover-design/assets/reference-4x3.png)
 
 ## 这套方法做什么
 
@@ -17,18 +17,18 @@
 克隆后将 skill 文件夹复制到 Codex 的技能目录；已有同名 skill 时先检查，不直接覆盖。
 
 ```bash
-git clone https://github.com/clarkzoe2026-a11y/editorial-cover-skill.git
-cd editorial-cover-skill
+git clone https://github.com/clarkzoe2026-a11y/cover-design-skill.git
+cd cover-design-skill
 mkdir -p "$HOME/.agents/skills"
-cp -R skills/editorial-cover "$HOME/.agents/skills/editorial-cover"
+cp -R skills/cover-design "$HOME/.agents/skills/cover-design"
 ```
 
-新开会话后调用 `$editorial-cover`。其他兼容 `SKILL.md` 的 Agent，可把该文件夹放入其技能目录。 skill 本身不调用付费 API；实际生成需要运行环境提供图像生成/编辑能力。没有工具时会报告限制，不把占位图当成品。
+新开会话后调用 `$cover-design`。其他兼容 `SKILL.md` 的 Agent，可把该文件夹放入其技能目录。 skill 本身不调用付费 API；实际生成需要运行环境提供图像生成/编辑能力。没有工具时会报告限制，不把占位图当成品。
 
 ## 用法
 
 ```text
-使用 $editorial-cover，给“把散落笔记变成可复用知识库”制作封面。
+使用 $cover-design，给“把散落笔记变成可复用知识库”制作封面。
 标签：AI知识管理
 副标题：收集 · 整理 · 调用
 主色：#DDFB78
@@ -40,9 +40,9 @@ cp -R skills/editorial-cover "$HOME/.agents/skills/editorial-cover"
 
 ## 内容
 
-- [SKILL.md](skills/editorial-cover/SKILL.md)：核心决策与工作方式。
-- [配色、提示词与具体例子](skills/editorial-cover/references/design-and-prompts.md)。
-- [比例与定点编辑](skills/editorial-cover/references/ratios-and-edits.md)。
+- [SKILL.md](skills/cover-design/SKILL.md)：核心决策与工作方式。
+- [配色、提示词与具体例子](skills/cover-design/references/design-and-prompts.md)。
+- [比例与定点编辑](skills/cover-design/references/ratios-and-edits.md)。
 - [三比例示例清单](examples/manifest.json)：图片的实际尺寸、哈希与来源说明。
 - [行为验证记录](docs/validation.md)：结构校验与独立提示词演练的范围。
 

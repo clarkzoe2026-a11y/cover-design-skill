@@ -28,7 +28,7 @@ class PackageChecks(unittest.TestCase):
             self.assertTrue(check.local_links(root, doc))
 
     def test_actual_image_dimensions_match_manifest(self):
-        image = ROOT / 'skills/editorial-cover/assets/reference-4x3.png'
+        image = ROOT / 'skills/cover-design/assets/reference-4x3.png'
         self.assertEqual(check.png_size(image), (1448, 1086))
 
 

@@ -41,9 +41,9 @@ def png_size(path):
 
 def main():
     errors = []
-    skill = ROOT / 'skills/editorial-cover/SKILL.md'
+    skill = ROOT / 'skills/cover-design/SKILL.md'
     text = skill.read_text(encoding='utf-8')
-    if not re.match(r'^---\nname: editorial-cover\ndescription: .+\n---\n', text):
+    if not re.match(r'^---\nname: cover-design\ndescription: .+\n---\n', text):
         errors.append('SKILL.md: missing name/description frontmatter')
     for path in ROOT.rglob('*'):
         if not path.is_file() or any(p in {'.git', '__pycache__'} for p in path.parts):

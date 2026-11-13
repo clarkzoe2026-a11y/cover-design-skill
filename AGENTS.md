@@ -1,6 +1,6 @@
 # Agent 入口
 
-这是 `editorial-cover` skill 的独立源仓库。技能正文在 `skills/editorial-cover/`。
+这是 `cover-design` skill 的独立源仓库（UI 名称「封面设计」）。技能正文在 `skills/cover-design/`。
 
 - 先读 SKILL.md，再读请求所需的 supporting references。
 - 生成物默认放 `outputs/`，不要覆盖自带参考图或把私人素材加入示例。

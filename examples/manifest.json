@@ -3,7 +3,7 @@
   "images": [
     {
       "ratio_requested": "4:3",
-      "file": "skills/editorial-cover/assets/reference-4x3.png",
+      "file": "skills/cover-design/assets/reference-4x3.png",
       "pixels": [
         1448,
         1086
@@ -14,7 +14,7 @@
     },
     {
       "ratio_requested": "3:4",
-      "file": "skills/editorial-cover/assets/reference-3x4.png",
+      "file": "skills/cover-design/assets/reference-3x4.png",
       "pixels": [
         1086,
         1448
@@ -25,7 +25,7 @@
     },
     {
       "ratio_requested": "16:9",
-      "file": "skills/editorial-cover/assets/reference-16x9.png",
+      "file": "skills/cover-design/assets/reference-16x9.png",
       "pixels": [
         1672,
         941
