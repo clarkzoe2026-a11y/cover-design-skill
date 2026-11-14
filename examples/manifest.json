@@ -33,6 +33,30 @@
       "sha256": "811273c475ddc9ccd4adb8540437d46434a63166c030e850317e97a1a13729d9",
       "method": "built-in ImageGen",
       "review": "example artifact; no standalone skill-generated image acceptance claim"
+    },
+    {
+      "ratio_requested": "16:9",
+      "file": "skills/cover-design/assets/reference-mist-blue-16x9.png",
+      "pixels": [
+        1672,
+        941
+      ],
+      "sha256": "65065f4b01aebff24c7f3ed9339008e43bf7b6145c4a68493f0c8995cd999d7a",
+      "method": "built-in ImageGen",
+      "review": "Mist-blue typography v5; visually reviewed; no individual user acceptance claimed",
+      "publication": "User explicitly requested inclusion as public skill references on 2026-11-14"
+    },
+    {
+      "ratio_requested": "16:9",
+      "file": "skills/cover-design/assets/reference-warm-paper-white-16x9.png",
+      "pixels": [
+        1672,
+        941
+      ],
+      "sha256": "5cb46a0d25ac4a84a0ff785d650736fff6f4ceed0ab06516e732d05f85b44573",
+      "method": "built-in ImageGen",
+      "review": "Warm-paper-white v6; explicitly accepted by user on 2026-11-14",
+      "publication": "User explicitly requested inclusion as public skill references on 2026-11-14"
     }
   ],
   "pixel_note": "Native 16:9 output is 1672x941, with integer-pixel rounding; not an exact 1920x1080 export."
